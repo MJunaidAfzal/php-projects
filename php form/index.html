@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php form</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+<body>
+
+<div style="margin-top:50px; " class="container ">
+    <form action="form.php" method="post">
+    <div style="background-color:rgba(195, 201, 116, 0.39);font-family: fantasy;  "   class="card">
+        <div class="card-header">
+            <h2 class="text-center"> REGISTRATION FORM </h2>
+        </div>
+        <div class="card-body">
+           
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <label for="name1">First Name</label>
+                </div>
+                <div class="col-md-6">
+                    <label for="name2">Last Name</label>
+                </div>
+                
+                <div class="col-md-6">
+                    
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-primary text-light"><i class="fa fa-user "></i></span>
+                    <input type="text" name="first_name" id="name1" class="form-control" placeholder="Enter Your First Name">
+                </div>
+                
+                </div>
+
+                <div class="col-md-6">
+                    
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-warning "><i class="fa fa-user "></i></span>
+                <input type="text" name="last_name" id="name2" class="form-control" placeholder="Enter Your last Name">
+            </div>
+            </div>
+            </div>
+
+            <div class="row mt-5">
+            <div class="col-md-4">
+                <label for="birth">Birth Date</label>
+            </div>
+            <div class="col-md-4">
+                <label for="age">Age</label>
+            </div>
+            <div class="col-md-4">
+                <label for="number">Phone Number</label>
+            </div>
+
+            <div class="col-md-4">
+                    
+                <div class="input-group-prepend">
+                    <span class="input-group-text bg-info text-light"><i class="fa fa-birthday-cake "></i></span>
+            <input type="date" name="birth" id="birth" class="form-control" placeholder="Enter Birth Date">
+        </div>
+        
+        </div>
+
+        <div class="col-md-4">
+            
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-dark text-light "><i class="fa fa-address-book "></i></span>
+        <input type="number" name="age" id="age" class="form-control" placeholder="Enter Your Age">
+    </div>
+    </div>
+
+    <div class="col-md-4">
+            
+        <div class="input-group-prepend">
+            <span class="input-group-text bg-success text-light "><i class="fa fa-phone "></i></span>
+    <input type="text" name="number" id="nuber" class="form-control" placeholder="Enter Your Phone Number">
+
+</div>
+</div>
+
+<img  style=" border-radius: 50px; margin-left: 450px; margin-top: 20px; width: 150px;height: 150px;" src="assets/img/avatar_business_costume_male_man_office_work_icon_628289.png" alt="avatar">
+
+              <div class="col-md-6 mt-3">
+                <label for="email">Email</label>
+             </div>
+                <div class="col-md-6 mt-3">
+            <label for="address">Address</label>
+         </div>
+ <div class="col-md-6 ">
+            
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-warning text-light "><i class="fa fa-folder "></i></span>
+        <input type="text" name="email" id="email" class="form-control" placeholder="Enter Your Email">
+    </div>
+    </div>
+
+    <div class="col-md-6 ">
+            
+        <div class="input-group-prepend">
+            <span class="input-group-text bg-primary text-light "><i class="fa fa-home "></i></span>
+    <input type="text" name="address" id="address" class="form-control" placeholder="Enter Your address">
+
+</div>
+</div>
+         <div class="col-md-6 mt-3">
+                <label for="country">Country</label>
+             </div>
+                <div class="col-md-6 mt-3">
+            <label for="region">Region</label>
+         </div>
+
+<div class="col-md-6 ">
+        <div class="input-group-prepend">
+            <span class="input-group-text bg-success text-light "><i class="fa fa-map "></i></span>
+    <select name="country" id="country" class="form-control">
+        <option value="1">Pakistan</option>
+        <option value="2">India</option>
+        <option value="3">America</option>
+    </select>
+
+</div>
+</div>
+
+<div class="col-md-6 ">
+        <div class="input-group-prepend">
+            <span class="input-group-text bg-info text-light "><i class="fa fa-male "></i></span>
+    <select name="region" id="region" class="form-control">
+        <option value="1">Muslim</option>
+        <option value="2">Christian</option>
+        <option value="3">Hindu</option>
+    </select>
+
+</div>
+</div>
+</div>
+        <button  style="float: right;"  class="btn btn-primary btn-lg mt-5" > <i class="fa fa-paper-plane"></i> Log In </button>
+        </div>
+       
+            
+    </div>
+</form>
+</div>
+    
+</body>
+</html>
