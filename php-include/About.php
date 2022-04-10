@@ -15,6 +15,9 @@
         }
         
     </style>
+    <?php
+          include ("header.php");
+        ?>
     <div style="margin-top: 200px;background-color: rgb(21, 192, 192);" class="container-fluid ">
           <div style="padding: 100px;" class="container ">
             <div class="row">
@@ -43,3 +46,7 @@
               </div>
             </div>
           </div>
+
+          <?php
+          include ("footer.php");
+        ?>

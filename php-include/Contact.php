@@ -14,7 +14,9 @@
         }
         
     </style>
-
+  <?php
+          include ("header.php");
+        ?>
           <div class="container" style="margin-top: 150px;">
               <h2 style="font-family: fantasy;">CONTACT US</h2><br>
               <div class="row">
@@ -35,3 +37,7 @@
             </div>
           </div>
         </div>
+
+        <?php
+          include ("footer.php");
+        ?>

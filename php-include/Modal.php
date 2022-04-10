@@ -14,6 +14,9 @@
         }
         
     </style>
+    <?php
+          include ("header.php");
+        ?>
 
 <div class="container-fluid">
         <div class="container mt-5">
@@ -72,3 +75,7 @@
               </div>
             </div>
           </div>
+
+          <?php
+          include ("footer.php");
+        ?>
