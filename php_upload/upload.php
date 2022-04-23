@@ -1,3 +1,9 @@
+<?php 
+  session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,6 +72,8 @@ if ($uploadOk == 0) {
   }
 }
 ?>
-    
+    <?php
+    echo  $_SESSION["image"] = $target_file ;
+    ?>
 </body>
 </html>
