@@ -58,26 +58,7 @@
             $BMW = new BMW("BMW", "Black");
             $BMW->message();
             $BMW->intro();
-?><br>
-<h1>DESTRUCTOR</h1>
-
-<?php
-        class Vegetable {
-            public $name;
-            public $color;
-
-            function __construct($name, $color) {
-                $this->name = $name;
-                $this->color = $color;
-  }
-            function __destruct() {
-            echo "The Vegetable is {$this->name} and the color is {$this->color}.";
-  }
-}
-
-        $apple = new Vegetable("Potato", "Brown");
 ?>
-
 
     
 </body>
